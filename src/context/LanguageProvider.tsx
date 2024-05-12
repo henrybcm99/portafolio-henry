@@ -1,12 +1,12 @@
-import React, { Children, useReducer } from 'react';
+import React, { useState } from 'react';
 import { LanguageContext,  } from './LanguageContext';
-import LanguageReducer from './LanguageReducer';
 
-const LanguageProvide = (Children: any) => {
-    const [state, dispatch] = useReducer(LanguageReducer ,"ES")
+const LanguageProvide = ({children}: any) => {
+    const [l, setL] = useState<'ES' | 'EN'>("EN")
+    
     return (
-        <LanguageContext.Provider value={{state,dispatch:dispatch}}>
-                {Children}
+        <LanguageContext.Provider value={{l,setL}}>
+                {children}
         </LanguageContext.Provider>
     );
 };
