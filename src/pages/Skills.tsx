@@ -9,7 +9,7 @@ const Skills = () => {
     return (
         <div>
             <div className="flex justify-center text-5xl mt-14 flex-col items-center">
-                {(l!=undefined) ? t[l].myskills: ""}
+                {(l!==undefined) ? t[l].myskills: ""}
                 <Card>
                     <CardContent>
                         
