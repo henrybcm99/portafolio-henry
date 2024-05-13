@@ -4,12 +4,12 @@ export interface Lang {
     l: 'ES' | 'EN'
 }
 
-interface LanguageContext {
+interface languageContext {
     l: 'ES' | 'EN',
     setL: Dispatch<SetStateAction<'ES' | 'EN'>>
 }
 
-export const LanguageContext = createContext<LanguageContext | undefined>(undefined)
+export const LanguageContext = createContext<languageContext | undefined>(undefined)
 
 
 export const useLanguage = () => {

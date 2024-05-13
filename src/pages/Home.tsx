@@ -18,13 +18,13 @@ const Home = () => {
                  />
                 <div className='flex justify-between sm:items-start items-center flex-col'>
                     <h1 className='text-4xl'>
-                        {(l!=undefined) ? t[l].hi: ""}
+                        {(l!==undefined) ? t[l].hi: ""}
                     </h1>
                     <h1 className='text-lg sm:w-2/3 mt-4'>
-                        {(l!=undefined) ? t[l].computer: ""}
+                        {(l!==undefined) ? t[l].computer: ""}
                     </h1>
                     <a className='sm:w-[20%] mt-4 h-8 bg-blue-500 flex items-center justify-center rounded-lg w-1/2' href="CV. Henry Cobas Maldonado.pdf" download={true}>
-                        {(l!=undefined) ? t[l].dowl: ""}
+                        {(l!==undefined) ? t[l].dowl: ""}
                     </a>
                 </div>
             </div>
@@ -35,18 +35,18 @@ const Home = () => {
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 >
-                    <h3 className="vertical-timeline-element-title">{(l!=undefined) ? t[l].front: ""}</h3>
+                    <h3 className="vertical-timeline-element-title">{(l!==undefined) ? t[l].front: ""}</h3>
                     <p>
-                        {(l!=undefined) ? t[l].exp: ""}
+                        {(l!==undefined) ? t[l].exp: ""}
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 >
-                    <h3 className="vertical-timeline-element-title">{(l!=undefined) ? t[l].aboutme: ""}</h3>
+                    <h3 className="vertical-timeline-element-title">{(l!==undefined) ? t[l].aboutme: ""}</h3>
                     <p>
-                        {(l!=undefined) ? t[l].passionate: ""}
+                        {(l!==undefined) ? t[l].passionate: ""}
                     </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>

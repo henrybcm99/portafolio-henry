@@ -31,11 +31,11 @@ const Layout = () => {
       <div className='bg-neutral-300 640px'>
         <AppBar position="sticky">
           <Toolbar className='flex gap-2 sm:gap-10 flex-wrap justify-between'>
-            <h1>{(l!=undefined) ? t[l].portafolio: ""}</h1>
+            <h1>{(l!==undefined) ? t[l].portafolio: ""}</h1>
             <div className='flex justify-center gap-2 sm:gap-10 flex-wrap'>
-              <Link to="#/" color="inherit" >{(l!=undefined) ? t[l].home: ""}</Link>
-              <Link to="#skills" color="inherit" >{(l!=undefined) ? t[l].skills: ""}</Link>
-              <Link to="#proyects" color="inherit" >{(l!=undefined) ? t[l].proyects: ""}</Link>
+              <Link to="#/" color="inherit" >{(l!==undefined) ? t[l].home: ""}</Link>
+              <Link to="#skills" color="inherit" >{(l!==undefined) ? t[l].skills: ""}</Link>
+              <Link to="#proyects" color="inherit" >{(l!==undefined) ? t[l].proyects: ""}</Link>
             </div>
             <div className='flex flex-row items-center'>
               <h1>ES</h1>
@@ -46,21 +46,21 @@ const Layout = () => {
         </AppBar>
         <Outlet />
         <div className='mt-10 sm:h-28'>
-          <Divider className='sm:h-[23%]' textAlign="center">{(l!=undefined) ? t[l].contact: ""}</Divider>
+          <Divider className='sm:h-[23%]' textAlign="center">{(l!==undefined) ? t[l].contact: ""}</Divider>
           <div className='sm:h-[77%] flex flex-row flex-wrap justify-center items-center gap-6'>
-            <a href="https://www.linkedin.com/in/henry-cobas-maldonado-142957247/" target='_blank'>
+            <a href="https://www.linkedin.com/in/henry-cobas-maldonado-142957247/">
               <LinkedInIcon sx={{ fontSize: 40}} color='primary'/>
             </a>
-            <a href="https://wa.me/+5356061715?text=Hi Henry,We are interested in work with you!" target='_blank'>
+            <a href="https://wa.me/+5356061715?text=Hi Henry,We are interested in work with you!">
               <WhatsAppIcon sx={{ fontSize: 40}} color='primary'/>
             </a>
-            <a href="https://github.com/henrybcm99" target='_blank'>
+            <a href="https://github.com/henrybcm99">
               <GitHubIcon sx={{ fontSize: 40}} color='primary'/>
             </a>
-            <a href="https://t.me/@Henrybcm" target='_blank'>
+            <a href="https://t.me/@Henrybcm">
               <TelegramIcon sx={{ fontSize: 40}} color='primary'/>
             </a>
-            <a href="https://www.facebook.com/henry%20cobas%20maldonado" target='_blank'>
+            <a href="https://www.facebook.com/henry%20cobas%20maldonado">
               <FacebookIcon sx={{ fontSize: 40}} color='primary'/>
             </a>
           </div>
