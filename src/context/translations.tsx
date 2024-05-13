@@ -16,7 +16,8 @@ export const t = {
        front: "Desarrollador Frontend",
        exp: "Experiencias en el desarrollo de interfaces innovadoras, atractivas, funcionales y responsivas creadas a partir de diseños de herramientas como Figma.", 
        aboutme: "Sobre mi",
-       passionate:"Apasionado por la programación, la resolución de problemas, siempre abierto al aprendizaje de nuevas tecnologías y al buen trabajo en equipo."
+       passionate:"Apasionado por la programación, la resolución de problemas, siempre abierto al aprendizaje de nuevas tecnologías y al buen trabajo en equipo.",
+       myskills: "Habilidades",
     },
     EN:{
         home:"HOME", 
@@ -30,7 +31,8 @@ export const t = {
         front: "Frontend Developer", 
         exp: "Experiences in the development of innovative, attractive, functional and responsive interfaces created from tool designs such as Figma", 
         aboutme: "About me",
-        passionate:"Passionate about programming, solving problems, always open to learning new technologies and good teamwork"
+        passionate:"Passionate about programming, solving problems, always open to learning new technologies and good teamwork",
+        myskills: "Skills",
     }
     
 }
