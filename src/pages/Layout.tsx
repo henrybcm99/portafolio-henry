@@ -21,7 +21,7 @@ const Layout = () => {
     const l = contex?.l
     
     const handleTraslate = (text: 'ES' | 'EN') => {
-      if(dispatch != undefined)
+      if(dispatch !== undefined)
         dispatch(text) 
       setCheck(!check)
     }
