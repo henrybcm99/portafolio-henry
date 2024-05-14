@@ -11,7 +11,7 @@ export const t = {
        portafolio: "PORTAFOLIO",
        contact: "CONTÁCTAME",
        hi: "Hola 👋, Mi nombre es Henry Cobas Maldonado",
-       computer: "Ingeniero en Ciencias Informáticas, egresado en la Universidad de Ciencias de la Información (UCI) de Cuba", 
+       computer: "Ingeniero en Ciencias Informáticas, egresado en la Universidad de Ciencias Informática(UCI) de Cuba", 
        dowl: "Descargar CV",
        front: "Desarrollador Frontend",
        exp: "Experiencias en el desarrollo de interfaces innovadoras, atractivas, funcionales y responsivas creadas a partir de diseños de herramientas como Figma.", 
