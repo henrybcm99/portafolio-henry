@@ -45,8 +45,8 @@ const Layout = () => {
         </AppBar>
         <Outlet />
         <div className='pt-10 h-[22vh]'>
-          <Divider className='sm:h-[23%]' textAlign="center">{(l!==undefined) ? t[l].contact: ""}</Divider>
-          <div className='sm:h-[77%] flex flex-row flex-wrap justify-center items-center gap-6'>
+          <Divider className='h-[23%]' textAlign="center">{(l!==undefined) ? t[l].contact: ""}</Divider>
+          <div className='h-[77%] flex flex-row flex-wrap justify-center items-center gap-6'>
             <a href="https://www.linkedin.com/in/henry-cobas-maldonado-142957247/">
               <LinkedInIcon sx={{ fontSize: 40}} color='primary'/>
             </a>

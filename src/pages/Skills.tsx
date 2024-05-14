@@ -20,7 +20,7 @@ const Skills = () => {
     const l = contx?.l
     return (
         <div>
-            <div className="flex h-[66vh] justify-center text-5xl flex-col items-center">
+            <div className="flex sm:h-[66vh] justify-center text-5xl flex-col items-center">
                 {/* {(l!==undefined) ? t[l].myskills: ""} */}
                 <div className='flex flex-col justify-around items-center'>
                     <h1 className='mb-3 font-semibold'>{(l!==undefined) ? t[l].tools: ""}</h1>

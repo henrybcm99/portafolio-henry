@@ -20,6 +20,9 @@ export const t = {
        myskills: "Habilidades",
        tools: "Herramientas",
        languages: "Lenguajes",
+       rce:"Registro Civil de Ecuador",
+       rceDescrpP1:"En este proyecto de desarrollo de registro civil de Ecuador, mi participación como frontend fue fundamental para garantizar una experiencia de usuario fluida y eficiente. Utilizando tecnologías de punta como ReactJS, NextJS, TypeScript y Prime UI logré diseñar e implementar interfaces interactivas y visualmente atractivas que facilitaron el acceso a los servicios de registro civil.",
+       rceDescrpP2:"Gracias a mi experiencia en desarrollo frontend y dominio de estas herramientas tecnológicas avanzadas, pude contribuir significativamente a la modernización y optimización del sistema.",
     },
     EN:{
         home:"HOME", 
@@ -37,6 +40,9 @@ export const t = {
         myskills: "Skills",
         tools: "Tools",
         languages: "Languages",
+        rce:"Ecuador Civil Registry",
+        rceDescrpP1:"In this civil registry development project in Ecuador, my participation as a frontend was essential to guarantee a fluid and efficient user experience. Using cutting-edge technologies such as ReactJS, NextJS, TypeScript and Prime UI, I managed to design and implement interactive and visually attractive interfaces that facilitated access to civil registry services.",
+        rceDescrpP2:"Thanks to my expertise in frontend development and mastery of these advanced technological tools, I was able to contribute significantly to the modernization and optimization of the system.",
     }
     
 }

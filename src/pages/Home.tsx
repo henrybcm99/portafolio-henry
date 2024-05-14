@@ -20,7 +20,7 @@ const Home = () => {
                     <h1 className='text-4xl'>
                         {(l!==undefined) ? t[l].hi: ""}
                     </h1>
-                    <h1 className='text-lg sm:w-2/3 mt-4'>
+                    <h1 className='text-lg sm:w-2/3 w-[85%] mt-4 text-justify'>
                         {(l!==undefined) ? t[l].computer: ""}
                     </h1>
                     <a className='sm:w-[20%] mt-4 h-8 bg-blue-500 flex items-center justify-center rounded-lg w-1/2' href="CV. Henry Cobas Maldonado.pdf" download={true}>
