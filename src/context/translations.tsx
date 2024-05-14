@@ -18,6 +18,8 @@ export const t = {
        aboutme: "Sobre mi",
        passionate:"Apasionado por la programación, la resolución de problemas, siempre abierto al aprendizaje de nuevas tecnologías y al buen trabajo en equipo.",
        myskills: "Habilidades",
+       tools: "herramientas",
+       languages: "Lenguajes",
     },
     EN:{
         home:"HOME", 
@@ -33,6 +35,8 @@ export const t = {
         aboutme: "About me",
         passionate:"Passionate about programming, solving problems, always open to learning new technologies and good teamwork",
         myskills: "Skills",
+        tools: "Tools",
+        languages: "Languages",
     }
     
 }
