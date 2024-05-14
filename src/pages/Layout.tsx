@@ -28,7 +28,7 @@ const Layout = () => {
 
     return (
       <div className='bg-neutral-300 '>
-        <AppBar position="sticky">
+        <AppBar position="sticky" className='h-[12vh] app-bar'>
           <Toolbar className='flex gap-2 sm:gap-10 flex-wrap justify-between'>
             <h1>{(l!==undefined) ? t[l].portafolio: ""}</h1>
             <div className='flex justify-center gap-2 sm:gap-10 flex-wrap'>
@@ -44,7 +44,7 @@ const Layout = () => {
           </Toolbar>
         </AppBar>
         <Outlet />
-        <div className='mt-10 sm:h-28'>
+        <div className='pt-10 h-[22vh]'>
           <Divider className='sm:h-[23%]' textAlign="center">{(l!==undefined) ? t[l].contact: ""}</Divider>
           <div className='sm:h-[77%] flex flex-row flex-wrap justify-center items-center gap-6'>
             <a href="https://www.linkedin.com/in/henry-cobas-maldonado-142957247/">
