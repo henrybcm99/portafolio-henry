@@ -1,7 +1,6 @@
 
 import { AppBar, Divider ,  Switch,  Toolbar, } from '@mui/material';
-import { Outlet } from "react-router-dom";
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link, Outlet } from "react-router-dom";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
@@ -33,9 +32,9 @@ const Layout = () => {
           <Toolbar className='flex gap-2 sm:gap-10 flex-wrap justify-between'>
             <h1>{(l!==undefined) ? t[l].portafolio: ""}</h1>
             <div className='flex justify-center gap-2 sm:gap-10 flex-wrap'>
-              <Link to="#/" color="inherit" >{(l!==undefined) ? t[l].home: ""}</Link>
-              <Link to="#skills" color="inherit" >{(l!==undefined) ? t[l].skills: ""}</Link>
-              <Link to="#proyects" color="inherit" >{(l!==undefined) ? t[l].proyects: ""}</Link>
+              <Link to="/" color="inherit" >{(l!==undefined) ? t[l].home: ""}</Link>
+              <Link to="skills" color="inherit" >{(l!==undefined) ? t[l].skills: ""}</Link>
+              <Link to="proyects" color="inherit" >{(l!==undefined) ? t[l].proyects: ""}</Link>
             </div>
             <div className='flex flex-row items-center'>
               <h1>ES</h1>
