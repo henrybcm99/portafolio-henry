@@ -23,7 +23,7 @@ const Home = () => {
                     <h1 className='text-lg sm:w-2/3 w-[85%] mt-4 text-justify'>
                         {(l!==undefined) ? t[l].computer: ""}
                     </h1>
-                    <a className='sm:w-[20%] mt-4 h-8 bg-blue-500 flex items-center justify-center rounded-lg w-1/2' href="CV. Henry Cobas Maldonado.pdf" download={true}>
+                    <a className='sm:w-[20%] mt-4 h-8 bg-blue-500 flex items-center justify-center rounded-lg w-1/2 text-white' href="CV. Henry Cobas Maldonado.pdf" download={true}>
                         {(l!==undefined) ? t[l].dowl: ""}
                     </a>
                 </div>
@@ -35,7 +35,7 @@ const Home = () => {
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 >
-                    <h3 className="vertical-timeline-element-title">{(l!==undefined) ? t[l].front: ""}</h3>
+                    <h3 className="vertical-timeline-element-title text-2xl">{(l!==undefined) ? t[l].front: ""}</h3>
                     <p>
                         {(l!==undefined) ? t[l].exp: ""}
                     </p>
@@ -44,7 +44,7 @@ const Home = () => {
                     className="vertical-timeline-element--work"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 >
-                    <h3 className="vertical-timeline-element-title">{(l!==undefined) ? t[l].aboutme: ""}</h3>
+                    <h3 className="vertical-timeline-element-title text-2xl">{(l!==undefined) ? t[l].aboutme: ""}</h3>
                     <p>
                         {(l!==undefined) ? t[l].passionate: ""}
                     </p>

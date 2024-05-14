@@ -10,7 +10,7 @@ export const t = {
        proyects: "PROYECTOS",
        portafolio: "PORTAFOLIO",
        contact: "CONTÁCTAME",
-       hi: "Hola 👋,Mi nombre es Henry Cobas Maldonado",
+       hi: "Hola 👋, Mi nombre es Henry Cobas Maldonado",
        computer: "Ingeniero en Ciencias Informáticas, egresado en la Universidad de Ciencias de la Información (UCI) de Cuba", 
        dowl: "Descargar CV",
        front: "Desarrollador Frontend",
