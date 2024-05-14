@@ -18,7 +18,7 @@ export const t = {
        aboutme: "Sobre mi",
        passionate:"Apasionado por la programación, la resolución de problemas, siempre abierto al aprendizaje de nuevas tecnologías y al buen trabajo en equipo.",
        myskills: "Habilidades",
-       tools: "herramientas",
+       tools: "Herramientas",
        languages: "Lenguajes",
     },
     EN:{

@@ -23,7 +23,7 @@ const Skills = () => {
             <div className="flex justify-center text-5xl mt-14 flex-col items-center">
                 {/* {(l!==undefined) ? t[l].myskills: ""} */}
                 <div className='flex flex-col justify-around items-center'>
-                    <h1 className='mb-3'>{(l!==undefined) ? t[l].tools: ""}</h1>
+                    <h1 className='mb-3 font-semibold'>{(l!==undefined) ? t[l].tools: ""}</h1>
                     <Card>
                         <CardContent className='flex justify-between sm:gap-5 gap-2 flex-wrap'>
                             <div className='flex flex-col items-center'>
@@ -52,7 +52,7 @@ const Skills = () => {
                             </div>
                         </CardContent>
                     </Card>
-                    <h1 className='mt-5 mb-3'>{(l!==undefined) ? t[l].languages: ""}</h1>
+                    <h1 className='mt-5 mb-3 font-semibold'>{(l!==undefined) ? t[l].languages: ""}</h1>
                     <Card>
                         <CardContent className='flex justify-between sm:gap-5 gap-2 flex-wrap'>
                             <div className='flex flex-col items-center'>
