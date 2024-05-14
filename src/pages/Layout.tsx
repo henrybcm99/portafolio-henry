@@ -27,7 +27,7 @@ const Layout = () => {
 
 
     return (
-      <div className='bg-neutral-300 640px'>
+      <div className='bg-neutral-300 '>
         <AppBar position="sticky">
           <Toolbar className='flex gap-2 sm:gap-10 flex-wrap justify-between'>
             <h1>{(l!==undefined) ? t[l].portafolio: ""}</h1>
