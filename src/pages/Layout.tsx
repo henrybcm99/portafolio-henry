@@ -9,8 +9,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { t } from "../context/translations"
-
-
+import "./layout.css";
 
 
 const Layout = () => {
@@ -28,7 +27,7 @@ const Layout = () => {
 
     return (
       <div className='bg-neutral-300 '>
-        <AppBar position="sticky" className='h-[12vh] app-bar'>
+        <AppBar position="sticky" className='h-[67px] bar'>
           <Toolbar className='flex gap-2 sm:gap-10 flex-wrap justify-between'>
             <h1>{(l!==undefined) ? t[l].portafolio: ""}</h1>
             <div className='flex justify-center gap-2 sm:gap-10 flex-wrap'>
